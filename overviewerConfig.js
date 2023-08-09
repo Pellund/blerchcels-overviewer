@@ -27,7 +27,7 @@ var overviewerConfig = {
     ],
     "map": {
         "debug": false,
-        "cacheTag": "1691547214",
+        "cacheTag": "1691584746",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -41,11 +41,11 @@ var overviewerConfig = {
     },
     "tilesets": [
         {
-            "name": "blerchcels",
-            "zoomLevels": 8,
-            "defaultZoom": 1,
-            "maxZoom": 8,
-            "path": "day",
+            "name": "north",
+            "zoomLevels": 6,
+            "defaultZoom": 3,
+            "maxZoom": 6,
+            "path": "north",
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "blerchcels",
@@ -60,13 +60,97 @@ var overviewerConfig = {
                 0
             ],
             "lastrenderversion": 2,
-            "minZoom": 0,
+            "minZoom": 3,
             "spawn": [
                 0,
                 128,
                 0
             ],
             "north_direction": 0
+        },
+        {
+            "name": "south",
+            "zoomLevels": 6,
+            "defaultZoom": 3,
+            "maxZoom": 6,
+            "path": "south",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "blerchcels",
+            "last_rendertime": 1667363537,
+            "imgextension": "jpg",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                0,
+                128,
+                0
+            ],
+            "lastrenderversion": 2,
+            "minZoom": 3,
+            "spawn": [
+                0,
+                128,
+                0
+            ],
+            "north_direction": 2
+        },
+        {
+            "name": "east",
+            "zoomLevels": 6,
+            "defaultZoom": 3,
+            "maxZoom": 6,
+            "path": "east",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "blerchcels",
+            "last_rendertime": 1667363537,
+            "imgextension": "jpg",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                0,
+                128,
+                0
+            ],
+            "lastrenderversion": 2,
+            "minZoom": 3,
+            "spawn": [
+                0,
+                128,
+                0
+            ],
+            "north_direction": 1
+        },
+        {
+            "name": "west",
+            "zoomLevels": 6,
+            "defaultZoom": 3,
+            "maxZoom": 6,
+            "path": "west",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "blerchcels",
+            "last_rendertime": 1667363537,
+            "imgextension": "jpg",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                0,
+                128,
+                0
+            ],
+            "lastrenderversion": 2,
+            "minZoom": 3,
+            "spawn": [
+                0,
+                128,
+                0
+            ],
+            "north_direction": 3
         }
     ]
 };
